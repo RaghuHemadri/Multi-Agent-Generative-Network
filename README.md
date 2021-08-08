@@ -1,5 +1,5 @@
 # Multi-Agent-Generative-Network (MAGNET)
-MAGNET is a multi agnet cooperative learning based architecture for generating new images. MAGNET generates images similar to images in [CelebA](https://mmlab.ie.cuhk.edu.hk/projects/CelebA.html) dataset.
+MAGNET is a multi agent cooperative learning based architecture for generating new images. MAGNET generates images similar to images in [CelebA](https://mmlab.ie.cuhk.edu.hk/projects/CelebA.html) dataset.
 
 ## Theory
 The algorithm of multi-agent cooperative learning is inspired from [Multi-Agent Actor-Critic for Mixed Cooperative-Competitive Environments](https://arxiv.org/abs/1706.02275). 
@@ -38,7 +38,7 @@ log(D<sub>a</sub>(x)) + log(1 – D<sub>a</sub>(G(z)))
 ----------------------------------------------------------------------------------------------------------------------------------------
 ## Implementation 
 * **Python Version:** 3.8
-* The network is trained on NVIDIA RTX 3070 8GB laptop GPU and trining time for 25 epochs is around an hour.
+* The network is trained on NVIDIA RTX 3070 8GB laptop GPU and training time for 25 epochs is around an hour.
 
 ### Dependencies
 All the dependencies can be installed using the command
