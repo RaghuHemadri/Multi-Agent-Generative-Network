@@ -38,7 +38,7 @@ log(D<sub>a</sub>(x)) + log(1 – D<sub>a</sub>(G(z)))
 ----------------------------------------------------------------------------------------------------------------------------------------
 ## Implementation 
 * **Python Version:** 3.8
-* The network is trained on NVIDIA RTX 3070 8GB laptop GPU and trining time for 50 epochs is .
+* The network is trained on NVIDIA RTX 3070 8GB laptop GPU and trining time for 50 epochs is around 2 hours.
 
 ### Dependencies
 All the dependencies can be installed using the command
@@ -63,3 +63,4 @@ All the dependencies can be installed using the command
 
 ### Results
 The training results for a fixed random noise
+![MAGNET_results](MAGNET_results.gif)
