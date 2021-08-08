@@ -48,7 +48,7 @@ All the dependencies can be installed using the command
 ### Datasets
 * The code uses CelebA dataset. 
 * In the MAGNET directory create a directory named 'data'.
-* The dataset can be manually downloaded from [this link](https://mmlab.ie.cuhk.edu.hk/projects/CelebA.html). For manual download, use the aligned and cropped dataset.
+* The dataset can be manually downloaded from [this link](https://mmlab.ie.cuhk.edu.hk/projects/CelebA.html). For manual download, use the aligned and cropped dataset. Unzip the dataset to 'data/celeba'.
 * The dataset is automatically downloaded to 'data' directory by running 
 
       python3 download_celeba.py
