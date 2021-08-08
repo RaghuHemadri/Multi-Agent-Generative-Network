@@ -33,4 +33,33 @@ log(D<sub>a</sub>(x)) + log(1 – D<sub>a</sub>(G(z)))
 * The Generator Actor-Critic networks use DDPG as the hidden state is continuous.
 * The Discriminator Actor-Critic networks use Actor-Critic as the output of D<sub>a</sub> is either '0' or '1'.
 * **Multi-Agent DDPG for N-Agents:**
-![Multi-Agent DDPG]('MADDPG.png')
+![Multi-Agent DDPG](MADDPG.png)
+
+----------------------------------------------------------------------------------------------------------------------------------------
+## Implementation 
+* **Python Version:** 3.8
+* The network is trained on NVIDIA RTX 3070 8GB laptop GPU and trining time for 50 epochs is .
+
+### Dependencies
+All the dependencies can be installed using the command
+
+    pip3 install -r requirements.txt
+    
+### Datasets
+* The code uses CelebA dataset. 
+* In the MAGNET directory create a directory named 'data'.
+* The dataset can be manually downloaded from [this link](https://mmlab.ie.cuhk.edu.hk/projects/CelebA.html). For manual download, use the aligned and cropped dataset.
+* The dataset is automatically downloaded to 'data' directory by running 
+
+      python3 download_celeba.py
+      
+### Training
+* The training parameters can be changed in the file named 'train.py'
+* To start training use the command
+
+      python3 train.py
+      
+* Checkpoints are saved in 'models' directory with timestamp.
+
+### Results
+The training results for a fixed random noise
