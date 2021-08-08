@@ -62,5 +62,5 @@ All the dependencies can be installed using the command
 * Checkpoints are saved in 'models' directory with timestamp.
 
 ### Results
-The training results for 25 with a fixed random noise as input
+The training results for 25 epochs with a fixed random noise as input
 ![MAGNET_results](MAGNET_results.gif)
