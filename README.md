@@ -22,6 +22,7 @@ Given the hidden state vector and current state, it outputs the q-value.
 Given an image, this network predicts if the image is real (x) or fake (G(x)).
 * **Discriminator Critic (D<sub>c</sub>):**
 Give the prediction of Discriminator Actor (policy) and the current state (Discriminator Actor input), it outputs the q-value.
+* The networks **G<sub>a</sub>**, **G<sub>c</sub>**, **D<sub>a</sub>**, and **D<sub>c</sub>** have their corresponding target networks, which will be updated after specified number of epochs.
 
 ### Returns
 * **Generator Return:**
